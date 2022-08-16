@@ -1,0 +1,101 @@
+@media screen and (max-width: 1005px) {
+    .promo__list {
+        flex-direction: column;
+    }
+
+    .promo__item {
+        margin-bottom: 20px;
+    }
+
+    .composit__img {
+
+        width: 25vw;
+    }
+
+    .feedback__client {
+        display: flex;
+        /*        flex-direction: column;*/
+    }
+
+
+    .feedback__text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-top: 15px;
+
+        max-width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .form__input-name {
+        width: 80%;
+    }
+
+    .form__input-phone {
+        width: 80%;
+    }
+
+    .promo__item {
+        margin-right: 0px;
+
+    }
+
+    .promo__img {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .form__input-name {
+        width: 80%;
+    }
+
+    .form__input-phone {
+        width: 80%;
+    }
+
+    .promo__item {
+        margin-right: 0px;
+    }
+
+    .container {
+        margin: 0 30px;
+    }
+
+    .form__wrapper {
+        padding: 20px;
+        max-width: 80vw;
+    }
+
+    .form__title {
+        font-size: 8vw;
+    }
+
+    .timer {
+        font-size: 5vw;
+    }
+
+    .form__price {
+        font-size: 5vw;
+        margin: 20px 0;
+    }
+
+    .form__price-old {
+        margin-right: 10px;
+        font-size: 4vw;
+    }
+
+    .form__input-name {
+        font-size: 4vw;
+    }
+
+    .form__input-phone {
+        font-size: 4vw;
+    }
+    .promo__img {
+        width: 35vw;
+    }
+}

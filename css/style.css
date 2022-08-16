@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+
+
+
+.container {
+    margin: 0 80px;
+}
+
+.promo__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.promo__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.promo__img {
+    width: 15vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.promo__list {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.promo__item:nth-last-child(1) {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.button {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 9px 15px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    max-width: 150px;
+}
+
+.button:hover {
+    border-color: rebeccapurple;
+    transition: 0.2s;
+}
+
+.button:focus {
+    border-color: rebeccapurple;
+}
+
+.promo__item {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.composit__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.composit__img {
+    margin: 0 50px;
+    width: 20vw;
+}
+
+.composit__item-img {
+    width: 15vw;
+    height: 16vh;
+    border-radius: 50%;
+}
+
+.composit__item {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.composit__item-title {
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+
+
+.feedback__name {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.feedback__text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 15px;
+
+    max-width: 70%;
+}
+
+.feedback__client {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.feedback__img {
+    height: 10vw;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+.promo__text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    margin: 20px 0;
+    text-align: center;
+}
+
+.form__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px solid black;
+    padding: 40px;
+    max-width: 50vw;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.form__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+.form__price {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 3vw;
+    display: flex;
+    margin: 30px 0;
+}
+
+.form__price-old {
+    text-decoration: line-through;
+    margin-right: 15px;
+    font-size: 2vw;
+}
+
+.form__input-name {
+    width: 60%;
+    height: 50px;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 20px;
+    border: none;
+    outline-style: solid;
+    outline-color: black;
+}
+
+.form__input-name:active {
+    outline-style: solid;
+    outline-color: rebeccapurple;
+}
+
+.form__input-name:focus {
+    outline-style: solid;
+    outline-color: rebeccapurple;
+}
+
+.form__input-phone {
+    width: 60%;
+    height: 50px;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 20px;
+
+    border: none;
+    outline-style: solid;
+    outline-color: black;
+
+}
+
+.form__input-phone:active {
+    outline-style: solid;
+    outline-color: rebeccapurple;
+}
+
+.form__input-phone:focus {
+    outline-style: solid;
+    outline-color: rebeccapurple;
+}
+
+.form__price-new {
+    color: crimson;
+}
+
+.form__img {
+    margin-left: 30px;
+    width: 15vw;
+}
+
+.composit__wrapper-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer {
+    font-family: 'Roboto';
+    font-size: 3vw;
+}
+
+
